@@ -3,7 +3,7 @@ def oxford_comma(array)
     comma_free = array.join
     return comma_free
   else array.size == 2
-    and_join = array.join (" and")
+    and_join = array.join (" and ")
     return and_join
   end
 end
