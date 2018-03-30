@@ -8,7 +8,7 @@ def oxford_comma(array)
   elsif array.size == 3
     comma_and_join = array.join (",")
     return comma_and_join
-  else 
-    all_other_join = array.join (",")
+  else
+    all_other_join = array.join (" , ")
   end
 end
